@@ -1,0 +1,25 @@
+* {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body {
+    /* ff 3.6+ */
+    background:-moz-linear-gradient(53deg, rgba(207, 226, 255, 1) 1%, rgba(0, 255, 221, 0.48) 100%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(53deg, rgba(207, 226, 255, 1) 1%, rgba(0, 255, 221, 0.48) 100%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(53deg, rgba(207, 226, 255, 1) 1%, rgba(0, 255, 221, 0.48) 100%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00FFDD', endColorstr='#CFE2FF', GradientType=0 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(53deg, rgba(207, 226, 255, 1) 1%, rgba(0, 255, 221, 0.48) 100%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(53deg, rgba(207, 226, 255, 1) 1%, rgba(0, 255, 221, 0.48) 100%);
+}
+
+
